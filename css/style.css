@@ -1,4 +1,4 @@
-/* Base */
+
 body {
     margin: 0;
     display: flex;
@@ -72,7 +72,6 @@ body {
     margin-right: 10px;
 }
 
-/* Right / Header */
 .right {
     background-color: rgb(50, 50, 50);
     width: 100%;
@@ -89,10 +88,17 @@ header {
 
 header input {
     height: 30px;
-    width: 50%;
+    width: 40%;
     padding: 5px 10px;
     border-radius: 5px;
     border: none;
+}
+
+header .logo-text {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 15px;
 }
 
 header button {
@@ -103,7 +109,6 @@ header button {
     cursor: pointer;
 }
 
-/* Mobile */
 @media screen and (max-width: 768px) {
     body {
         flex-direction: column;
